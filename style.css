@@ -28,30 +28,28 @@ body {
 }
 
 form {
-    margin-top: ;
-    margin-left: ;
+    margin-top: 20px;
+    margin-left: 20px;
     box-sizing: border-box;
     max-width: 400px;
     width: 100%;
     min-height: 362px;
-    padding: ;
+    padding: 20px;
     background-color: #BE0909;
     border-radius: 0px;
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: start;
-    margin-right: ;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     /* identical to box height */
-
     letter-spacing: 0.1em;
     text-transform: uppercase;
-
     color: #FEFFFF;
 }
 
@@ -69,4 +67,7 @@ form {
 img {
     width: 663px;
     height: 603px;
+}
+.button{
+    align-self: center;
 }
