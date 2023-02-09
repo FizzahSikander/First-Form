@@ -28,9 +28,7 @@ body {
 }
 
 form {
-    margin-top: 20px;
     margin-left: 20px;
-    box-sizing: border-box;
     max-width: 400px;
     width: 100%;
     min-height: 362px;
@@ -38,10 +36,9 @@ form {
     background-color: #BE0909;
     border-radius: 0px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -68,6 +65,74 @@ img {
     width: 663px;
     height: 603px;
 }
-.button{
+
+.button {
     align-self: center;
+    width: 202px;
+    height: 48px;
+    background-color: #468189;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+.input-field-first:hover,
+.input-field-second:hover {
+    background-color: yellow;
+}
+
+.button:hover,
+.textarea-first:hover,
+.textarea-second:hover {
+    background-color: yellow;
+    color: rgba(70, 96, 96, 1);
+}
+
+.input-field-first:focus,
+.input-field-second:focus,
+.textarea-first:focus,
+.textarea-second:focus {
+    outline: none;
+    box-shadow: 4px 4px 4px greenyellow;
+}
+
+.input-field-first,
+.input-field-second,
+.textarea-first,
+.textarea-second {
+    width: 100%;
+    height: 36px;
+    padding: 0px 0px;
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color:#BE0909;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.3em;
+    color: #FDFFFF;
+}
+
+.input-field-first,
+.textarea-second {
+    width: 400px;
+}
+
+.input-field-second,
+.textarea-first {
+    width: 150px;
 }
